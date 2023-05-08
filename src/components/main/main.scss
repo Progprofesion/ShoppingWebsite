@@ -1,0 +1,25 @@
+.main {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+    &__title {
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 40px;
+        color: #000000;
+    }
+    &__hug {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        min-width: 650px;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #242323;
+    }
+}
