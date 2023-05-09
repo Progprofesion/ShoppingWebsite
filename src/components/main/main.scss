@@ -22,4 +22,70 @@
         font-size: 22px;
         color: #242323;
     }
+    &__firstScreen {
+        position: relative;
+        margin-top: 55px;
+        padding-top: 77px;
+        height: 852px;
+        background: #F4F6F5;
+        border-radius: 59px;
+        &-title {
+            position: relative;
+            margin-left: 120px;
+            width: 473px;
+            height: 473px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 96px;
+            line-height: 120px;
+            z-index: 5;
+        }
+        &-backgroundWhite {
+            position: absolute;
+            width: 464.74px;
+            height: 112.14px;
+            top: 0;
+            left: -38px;
+            background: #FFFFFF;
+            transform: rotate(-2deg);
+            z-index: -1;
+       
+        }
+        &-backgroundYelow {
+            position: absolute;
+            top: 225px;
+            left: -27px;
+            width: 495.79px;
+            height: 117.55px;
+            background: #EBD96B;
+            transform: rotate(-2deg);
+            z-index: -1;
+        }
+        &-subtitle {
+            margin-top: 40px;
+            margin-left: 120px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 32px;
+        }
+        &-hug  {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 445px;
+            height: 82px;
+            margin-top: 30px;
+            margin-left: 125px;
+        }
+        &-icon {
+            width: 190px;
+            height: 32px;
+        }
+        &-girl {
+            position: absolute;
+            top: 68px;
+            right: 81px;
+        }
+    }
 }

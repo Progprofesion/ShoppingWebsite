@@ -1,4 +1,6 @@
 import fashionIcon from "../../assets/icon/fashionIcon.svg";
+import vectorYellow from "../../assets/icon/vectorYellow.svg";
+import girl from "../../assets/img/girl.png"
 import Button from "../buttons/Button";
 import "./main.scss";
 
@@ -18,9 +20,23 @@ const Main = () => {
                         <div className="main__hugTitle">LIFESTYLE</div>
                         <Button addClass="signUp" title="SIGN UP" />
                     </div>
-
                 </div>
+                <div className="main__firstScreen">
+                    <div className="main__firstScreen-title">LET’S
+                        EXPLORE
+                        UNIQUE
+                        CLOTHES.
+                        <div className="main__firstScreen-backgroundWhite"></div>
+                        <div className="main__firstScreen-backgroundYelow"></div>
+                    </div>
 
+                    <div className="main__firstScreen-subtitle">Live for Influential and Innovative fashion!</div>
+                    <div className="main__firstScreen-hug">
+                        <img src={vectorYellow} alt="" className="main__firstScreen-icon" />
+                        <Button addClass="shopNow" title="Shop Now" />
+                    </div>
+                    <img src={girl} alt="" className="main__firstScreen-girl" />
+                </div>
 
             </div>
         </div>
